@@ -1,0 +1,20 @@
+{
+  "name": "node-ls",
+  "version": "0.0.1",
+  "description": "夏のCLI commandsものまね大会 ~ls編~",
+  "bin": {
+    "node-ls": "./bin/node-ls.js"
+  },
+  "main": "./lib/node-ls.js",
+  "scripts": {
+    "start": "./bin/node-ls.js"
+  },
+  "author": "mizdra",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "engines": {
+    "node" : ">=6.3.0"
+  }
+}

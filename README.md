@@ -22,7 +22,7 @@ $ node-ls --help
     -a, --all       include hidden files and directories
     -F, --classify  classify files and directories
 
-$ node-ls -aF
+$ node-ls -aF sample-dir
 ./
 ../
 .hidden-dir
@@ -41,7 +41,7 @@ x-776-file*
 x-777-file*
 x-777-file-symlink@
 
-$ ls -1 -aF
+$ ls -1 -aF sample-dir
 ./
 ../
 .hidden-dir
